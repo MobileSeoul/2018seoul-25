@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_language_setting_en"
+        android:background="@drawable/btn_transparent_bg_bordered"
+        android:textColor="#009a9b"
+        android:layout_marginTop="150dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/languageSetting_eng" />
+
+    <Button
+        android:id="@+id/btn_language_setting_kr"
+        android:background="@drawable/btn_transparent_bg_bordered"
+        android:textColor="#009a9b"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/languageSetting_kor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minLines="2"
+        android:paddingHorizontal="50dp"
+        android:text="@string/languageSetting_info"
+        android:textColor="#666666"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_slider_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/image_slider_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3DADCE0"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="I . SEOUL . YOU"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/image_slider_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3DADCE0"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="We offer the information of Global Real Estate Agencies."
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/image_slider_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3DADCE0"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="Find your house and enjoy your life in Seoul."
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

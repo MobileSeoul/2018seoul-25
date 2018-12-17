@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e0e0e0</color>
+    <color name="colorPrimaryDark">#dadce0</color>
+    <color name="colorAccent">#009a9b</color>
+    <color name="textColorPrimary">#442C2E</color>
+    <color name="toolbarIconColor">#FFCF44</color>
+    <color name="loginPageBackgroundColor">#ffffff</color>
+    <color name="mainFragBackgroundColor">#ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

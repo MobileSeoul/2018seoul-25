@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seoulite</string>
+
+    <string name="hello">Seoulite Hello !</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="search_hint">Please enter District name.</string>
+
+    <string name="search_by_district_label">Search Agencies</string>
+    <string name="living_info_label">Living Info</string>
+    <string name="favorites_label">Favorites</string>
+    <string name="home_label">Home</string>
+
+    <string name="btn_search">Search</string>
+
+    <string name="agencyinfo_addtofavorites">Add To Favorites</string>
+    <string name="agencyinfo_address">Address</string>
+    <string name="agencyinfo_representative">Representative</string>
+    <string name="agencyinfo_phone">Phone</string>
+    <string name="agencyinfo_fax">Fax</string>
+    <string name="agencyinfo_languageAvailable">Language Available</string>
+    <string name="agencyinfo_notice">Please call the agency before the visit in case of the address is changed.</string>
+
+    <string name="languageSetting_kor">Korean</string>
+    <string name="languageSetting_eng">English</string>
+    <string name="languageSetting_info">Team Seoulite is trying our best to provide more other languages.</string>
+</resources>

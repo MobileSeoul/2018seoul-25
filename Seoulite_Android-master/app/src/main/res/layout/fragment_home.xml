@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainFragBackgroundColor"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="4dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/image_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            app:tabBackground="@drawable/indicator_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/agencyinfo_test_textview"-->
+    <!--style="@style/Widget.Shrine.Button.TextButton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; shortcut &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;" />-->
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_home_search"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/home_btn_border"
+        android:text="@string/search_by_district_label"
+        android:textColor="@color/colorAccent"
+        android:minHeight="0dp"
+        android:textSize="15sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_home_living_info"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/home_btn_border"
+        android:text="@string/living_info_label"
+        android:minHeight="0dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_home_favorites"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/favorites_label"
+        android:textSize="15sp"
+        android:minHeight="0dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/home_btn_border" />
+    <!--app:backgroundTint="@color/transparent"
+        app:cornerRadius="6dp"-->
+</LinearLayout>

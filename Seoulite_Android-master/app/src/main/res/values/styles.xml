@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#009a9b</item>
+        <item name="android:statusBarColor">#27272F</item>
+        <item name="android:colorControlActivated">#009a9b</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.Shrine.Dark">
+        <item name="colorPrimaryDark">#27272F</item>
+        <item name="colorAccent">#33333D</item>
+        <item name="colorControlActivated">#FFCF44</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+
+    <!-- Toolbar Styles -->
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorAccent</item>
+        <item name="android:theme">@style/Theme.Shrine.Dark</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Shrine.Toolbar</item>
+    </style>
+
+    <style name="Widget.Shrine.Dark.ToolbarIcon" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/toolbarIconColor</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Navigation Drawer Style -->
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <item name="colorPrimary">@color/textColorPrimary</item>
+        <item name="colorControlHighlight">@color/textColorPrimary</item>
+    </style>
+
+
+    <!-- Splash Activity Theme -->
+    <style name="SplashTheme" parent="Theme.Shrine">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Text Fields Styles -->
+    <style name="TextAppearance.Shrine.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <!--<style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox">-->
+        <!--<item name="hintTextAppearance">@style/TextAppearance.Shrine.TextInputLayout.HintText</item>-->
+        <!--<item name="android:paddingBottom">8dp</item>-->
+    <!--</style>-->
+
+    <!-- Button Styles -->
+    <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Shrine.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">?android:attr/colorControlActivated</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#009a9b</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

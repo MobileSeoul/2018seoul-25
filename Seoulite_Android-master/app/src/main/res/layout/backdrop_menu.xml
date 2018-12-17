@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_backdrop_home"
+        style="@style/Widget.Shrine.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_label"
+        android:textColor="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_backdrop_search"
+        style="@style/Widget.Shrine.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_by_district_label"
+        android:textColor="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_backdrop_living_info"
+        style="@style/Widget.Shrine.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/living_info_label"
+        android:textColor="@color/toolbarIconColor" />
+
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="@color/toolbarIconColor" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_backdrop_favorites"
+        style="@style/Widget.Shrine.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorites_label"
+        android:textColor="@color/toolbarIconColor" />
+</merge>
